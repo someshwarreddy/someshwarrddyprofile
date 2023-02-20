@@ -1,0 +1,33 @@
+.header-background {
+    background-color: #212529;
+}
+
+.navbar {
+    display: flex;
+    line-height: 1;
+    padding: 1.3rem 0;
+
+}
+
+.nav-items {
+    display: flex;
+    // margin-left: auto;
+    flex-basis: auto;
+    flex-wrap: wrap;
+}
+
+.nav-items .list-items {
+    margin-left: 2rem;
+    list-style: none;
+}
+
+.nav-items .list-items a {
+    font-family: 'Open Sans', sans-serif, 'open_sansregular';
+    display: block;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #fff;
+    font-weight: 800;
+    font-style: italic;
+
+}
