@@ -1,12 +1,11 @@
-.header-background {
-    background-color: #212529;
-}
 
+.header {
+    box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px, rgba(255, 255, 255, 0.25) 0px 1px 0px inset;
+}
+  
 .navbar {
     display: flex;
     line-height: 1;
-    padding: 1.3rem 0;
-
 }
 
 .nav-items {
@@ -17,17 +16,15 @@
 }
 
 .nav-items .list-items {
-    margin-left: 2rem;
+    margin-right: 2rem;
     list-style: none;
 }
 
 .nav-items .list-items a {
-    font-family: 'Open Sans', sans-serif, 'open_sansregular';
+    font-family: 'Playfair Display', serif;
     display: block;
     text-decoration: none;
     text-transform: capitalize;
-    color: #fff;
-    font-weight: 800;
-    font-style: italic;
+    color:#182978;
 
 }
