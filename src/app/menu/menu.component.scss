@@ -1,18 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Gasoek+One&family=Roboto:ital,wght@0,700;0,900;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gasoek+One&family=Pacifico&display=swap');
+
 .header {
-    box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px, rgba(255, 255, 255, 0.25) 0px 1px 0px inset;
-  
+    // box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px, rgba(255, 255, 255, 0.25) 0px 1px 0px inset;
+
 }
 
 .navbar {
     display: flex;
     line-height: 1;
     padding: 1rem 0;
+    justify-content: center;
+
 }
 
 .nav-items {
     display: flex;
     // margin-left: auto;
+    justify-content: center;
     flex-basis: auto;
     flex-wrap: wrap;
 }
@@ -22,12 +26,13 @@
     list-style: none;
 }
 
-.nav-items .list-items a {
-    font-family: 'Roboto', sans-serif;
+.nav-items .list-items .nav-link {
+    font-family: 'Pacifico', cursive;
     display: block;
     text-decoration: none;
     text-transform: capitalize;
-    color: #ffffff;
-    font-weight: 900;
+    color: #023047;
+    font-size: 36px;
+    // font-weight: 900;
 
 }
