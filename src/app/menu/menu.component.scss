@@ -1,38 +1,67 @@
 @import url('https://fonts.googleapis.com/css2?family=Gasoek+One&family=Pacifico&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css');
 
 .header {
-    // box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px, rgba(255, 255, 255, 0.25) 0px 1px 0px inset;
+  // box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px, rgba(255, 255, 255, 0.25) 0px 1px 0px inset;
 
 }
 
 .navbar {
-    display: flex;
-    line-height: 1;
-    padding: 1rem 0;
-    justify-content: center;
+  display: flex;
+  line-height: 1;
+  padding: 1rem 0;
+  justify-content: center;
 
 }
 
 .nav-items {
-    display: flex;
-    // margin-left: auto;
-    justify-content: center;
-    flex-basis: auto;
-    flex-wrap: wrap;
+  display: flex;
+  // margin-left: auto;
+  justify-content: center;
+  flex-basis: auto;
+  flex-wrap: wrap;
 }
 
 .nav-items .list-items {
-    margin-right: 2rem;
-    list-style: none;
+  margin-right: 2rem;
+  list-style: none;
 }
 
 .nav-items .list-items .nav-link {
-    font-family: 'Pacifico', cursive;
-    display: block;
-    text-decoration: none;
-    text-transform: capitalize;
-    color: #023047;
-    font-size: 36px;
-    // font-weight: 900;
+  font-family: 'Pacifico', cursive;
+  display: block;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #023047;
+  font-size: 36px;
+  // font-weight: 900;
+}
 
+.nav-items .list-items .nav-link:hover {
+  color: #e76f51;
+  animation: swing 0.5s 0.2s;
+  transform-origin: top center;
+
+}
+
+@keyframes swing {
+  20% {
+    transform: rotate3d(0, 0, 1, 15deg);
+  }
+
+  40% {
+    transform: rotate3d(0, 0, 1, -10deg);
+  }
+
+  60% {
+    transform: rotate3d(0, 0, 1, 5deg);
+  }
+
+  80% {
+    transform: rotate3d(0, 0, 1, -5deg);
+  }
+
+  to {
+    transform: rotate3d(0, 0, 1, 0deg);
+  }
 }
