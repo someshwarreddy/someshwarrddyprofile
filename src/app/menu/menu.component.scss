@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Gasoek+One&family=Pacifico&display=swap');
-@import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css');
+
 
 .header {
   // box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px, rgba(255, 255, 255, 0.25) 0px 1px 0px inset;
@@ -28,12 +27,13 @@
 }
 
 .nav-items .list-items .nav-link {
-  font-family: 'Pacifico', cursive;
+  // font-family: 'Pacifico', cursive;
+  font-family: 'Kablammo', cursive;
   display: block;
   text-decoration: none;
   text-transform: capitalize;
   color: #023047;
-  font-size: 36px;
+  font-size: 48px;
   // font-weight: 900;
 }
 

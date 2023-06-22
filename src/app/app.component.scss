@@ -1,9 +1,19 @@
-
 .center {
-    display: grid;
-    height: 100vh;
-    place-items: center;
+    display: flex;
+    justify-content: center;
 }
+
+.name-role {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    flex-direction: column;
+    font-family: 'Pacifico', cursive;
+    // font-family: 'Kablammo', cursive;
+    color: #023047;
+    font-size: 36px;
+}
+
 .custom-shape-divider-bottom-1677063149 {
     position: absolute;
     bottom: 0;
@@ -24,5 +34,3 @@
 .custom-shape-divider-bottom-1677063149 .shape-fill {
     fill: #f4a261;
 }
-
-
