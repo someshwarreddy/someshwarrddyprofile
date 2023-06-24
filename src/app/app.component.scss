@@ -1,36 +1,25 @@
 .center {
     display: flex;
     justify-content: center;
+    transform: translateY(40%);
 }
 
 .name-role {
-    display: flex;
-    justify-content: center;
-    width: 50%;
-    flex-direction: column;
+    color: #023047;
+    text-transform: capitalize;
+}
+
+.name {
     font-family: 'Pacifico', cursive;
     // font-family: 'Kablammo', cursive;
-    color: #023047;
-    font-size: 36px;
+    // color: #e76f51;
+    font-size: 3rem;
 }
 
-.custom-shape-divider-bottom-1677063149 {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    transform: rotate(180deg);
+.top-marin {
+    margin-top: 0.5rem;
 }
 
-.custom-shape-divider-bottom-1677063149 svg {
-    position: relative;
-    display: block;
-    width: calc(100% + 1.3px);
-    height: 150px;
-}
-
-.custom-shape-divider-bottom-1677063149 .shape-fill {
-    fill: #f4a261;
+.self-font-size{
+    font-size: 1.5rem;
 }
