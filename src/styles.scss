@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Gasoek+One&family=Pacifico&display=swap');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css');
 @import url('https://fonts.googleapis.com/css2?family=Kablammo&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kablammo&family=Libre+Baskerville&display=swap');
+
 /* You can add global styles to this file, and also import other style files */
 * {
     margin: 0;
@@ -9,17 +12,19 @@
 
 .container {
     margin: 0 auto;
-    width:100%;
+    width: 100%;
     max-width: 1170px;
 }
+
 .gutter {
     padding-left: .8rem;
     padding-right: .8rem;
 }
+
 body {
-  
-    background-image: linear-gradient(120deg, #fffefe 0%,  #fffbfb 100%);
+
+    background-image: linear-gradient(120deg, #fffefe 0%, #fffbfb 100%);
     // background-color: #219ebc;
-   
- 
+
+
 }

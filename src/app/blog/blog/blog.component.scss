@@ -1,0 +1,58 @@
+.country-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 2rem;
+}
+
+.country-list .card {
+    border-radius: 5px;
+    box-shadow: 0 3px 3px rgba(160, 153, 153, 0.12), 0 1px 2px rgba(171, 165, 165, 0.24);
+    margin-top: 2rem;
+  
+}
+
+
+svg {
+    font-size: 10rem;
+    width: 250px;
+    height: 300px;
+}
+
+.text-use {
+    fill: none;
+    stroke: #fff;
+    stroke-dasharray: 5% 29%;
+    stroke-width: 5px;
+    animation: stroke-offset 5.5s infinite linear;
+}
+
+.text-use:nth-child(1){
+  stroke: #d62828;
+  animation-delay: -1s;
+}
+
+.text-use:nth-child(2){
+  stroke: #3a5a40;
+  animation-delay: -2s;
+}
+
+.text-use:nth-child(3){
+  stroke: #780000;
+  animation-delay: -3s;
+}
+
+.text-use:nth-child(4){
+  stroke: #f4acb7;
+  animation-delay: -4s;
+}
+
+.text-use:nth-child(5){
+  stroke: #9c6644;
+  animation-delay: -5s;
+}
+
+@keyframes stroke-offset{
+  100% {stroke-dashoffset: -35%;}
+}
+
+
