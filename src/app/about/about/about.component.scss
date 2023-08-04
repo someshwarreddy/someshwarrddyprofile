@@ -1,6 +1,7 @@
 .center {
     display: flex;
     justify-content: center;
+    // flex-direction: column;
 }
 .name-role {
     // color: #6c757d;
@@ -43,12 +44,12 @@
 
 .skills-strip {
     // color: #6d7072;
-    color:#f6f2f2;
+ 
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
-.skills-strip-items {
+.skills-strip-items, .project-link {
     flex: 1;
     text-align: center;
     text-transform: capitalize;
@@ -56,4 +57,12 @@
     padding: 0.3rem;
     background-color: #5f6368;
     border-radius: 5px;
+    color:#f6f2f2;
 } 
+.project-link {
+    flex: 0 0 100px;
+    background-color:  #023047;
+    padding: 1rem;
+    text-decoration: none;
+ 
+}
