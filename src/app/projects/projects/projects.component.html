@@ -1,13 +1,12 @@
 <div class="container">
-   
-        <div class="product-list">
-            <div class="card" *ngFor="let project of projects" [routerLink]="['project', project.id]">
-                <div class="product-image">
-                    <img src="{{project?.image}}" alt="product image">
-                </div>
-                <div class="product-content">
-                    <p>{{project?.title}}</p>
-                </div>
+    <div class="product-list">
+        <div class="card" *ngFor="let project of projects" [routerLink]="['project', project.id]">
+            <div class="product-image">
+                <img src="{{project?.image}}" alt="product image">
+            </div>
+            <div class="product-content">
+                <p>{{project?.title}}</p>
             </div>
         </div>
+    </div>
 </div>
