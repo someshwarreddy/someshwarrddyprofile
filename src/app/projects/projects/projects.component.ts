@@ -12,21 +12,21 @@ export class ProjectsComponent {
     {
       id: 1,
       title: 'Countries',
-      Description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil nemo sunt, inventore,quae natus in porro rerum deleniti quaerat eaque placeat itaque blanditiis nam alias tempora eum unde? Aliquid, officia!',
+      summary: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil nemo sunt, inventore,quae natus in porro rerum deleniti quaerat eaque placeat itaque blanditiis nam alias tempora eum unde? Aliquid, officia!',
       image: './assets/images/p1.png'
     },
     /*...*/
     {
       id: 2,
       title: 'Justcart',
-      Description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil nemo sunt, inventore, quae natus in porro rerum deleniti quaerat eaque placeat itaque blanditiis nam alias tempora eum unde? Aliquid, officia!',
+      summary: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil nemo sunt, inventore, quae natus in porro rerum deleniti quaerat eaque placeat itaque blanditiis nam alias tempora eum unde? Aliquid, officia!',
       image: './assets/images/p2.png'
     },
     /*...*/
     {
       id: 3,
       title: 'Someshwar reddy ',
-      Description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil nemo sunt, inventore, quae natus in porro rerum deleniti quaerat eaque placeat itaque blanditiis nam alias tempora eum unde? Aliquid, officia!',
+      summary: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil nemo sunt, inventore, quae natus in porro rerum deleniti quaerat eaque placeat itaque blanditiis nam alias tempora eum unde? Aliquid, officia!',
       image: './assets/images/p-3.png'
     }
   ]
