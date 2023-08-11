@@ -1,11 +1,11 @@
 <div class="container">
-    <div class="product-list">
+    <div class="project-list">
         <div class="card" *ngFor="let project of projects" [routerLink]="['project', project.id]">
-            <div class="product-image">
-                <img src="{{project?.image}}" alt="product image">
+            <div class="project-image">
+                <img src="{{project?.image}}" alt="project image">
             </div>
-            <div class="product-content">
-                <p>{{project?.title}}</p>
+            <div class="project-content">
+                <h3>{{project?.title}}</h3>
             </div>
         </div>
     </div>

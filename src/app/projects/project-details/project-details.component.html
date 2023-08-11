@@ -1,1 +1,25 @@
-<p>project-details works!</p>
+<table  class="project-details-table" >
+  
+    <thead >
+        <tr class="project-details-table-row">
+            <th scope="row">Tilte:</th>
+            <td colspan="2">{{project.title}}</td>
+        </tr>
+    </thead>
+    <tbody >
+        <tr class="project-details-table-row">
+            <th scope="row">program Language</th>
+            <td colspan="2">{{project.pl}}</td>
+
+        </tr>
+        <tr class="project-details-table-row">
+            <th scope="row"> Description</th>
+            <td colspan="2">{{project.Description}}</td>
+        </tr>
+        <tr class="project-details-table-row">
+            <th scope="row">url</th>
+            <td colspan="2"><a href={{project.URL}} target="_blank" rel="noopener noreferrer">{{project.URL}}</a></td>
+        </tr>
+    </tbody>
+
+</table>
