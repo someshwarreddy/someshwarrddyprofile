@@ -18,7 +18,7 @@
   // margin-left: auto;
   justify-content: center;
   flex-basis: auto;
-  flex-wrap: wrap;
+  // flex-wrap: wrap;
 }
 
 .nav-items .list-items {
@@ -34,7 +34,7 @@
   text-transform: capitalize;
   // color: #023047;
   color: #e76f51;
-  font-size: 4rem;
+  font-size: 1rem;
   // font-weight: 900;
 }
 
@@ -65,5 +65,11 @@
 
   to {
     transform: rotate3d(0, 0, 1, 0deg);
+  }
+}
+
+@media(min-width:321px) {
+  .nav-items .list-items .nav-link {
+    font-size: 4rem;
   }
 }

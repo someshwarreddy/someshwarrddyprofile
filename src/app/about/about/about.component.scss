@@ -44,13 +44,13 @@
 
 .skills-strip {
     // color: #6d7072;
- 
     display: flex;
     flex-wrap: wrap;
+    // flex-direction: row;
     justify-content: center;
 }
 .skills-strip-items, .project-link {
-    flex: 1;
+    flex: 1 0 auto;
     text-align: center;
     text-transform: capitalize;
     margin:0.5rem;
@@ -64,5 +64,7 @@
     background-color:  #023047;
     padding: 1rem;
     text-decoration: none;
- 
+}
+.icon-github {
+    padding-left: .5rem;
 }

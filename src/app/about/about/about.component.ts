@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { FaConfig } from '@fortawesome/angular-fontawesome';
 
 @Component({
   selector: 'app-about',
@@ -6,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./about.component.scss']
 })
 export class AboutComponent implements OnInit{
+  constructor(faConfig: FaConfig) {
+    faConfig.defaultPrefix = 'fas';
+  }
   ngOnInit(): void {
  
   }
