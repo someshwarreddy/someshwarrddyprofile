@@ -68,3 +68,8 @@
 .icon-github {
     padding-left: .5rem;
 }
+
+@media(min-width:321px) {
+  
+.skills-links { display: none;}  
+}
