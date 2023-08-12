@@ -34,7 +34,7 @@ export class ProjectDetailsComponent implements OnInit {
       summary: 'The scope of the project is my portfolio.',
       image: './assets/images/p-3.png',
       pl: '  Angualr , Css , Html , Ngrx',
-      URL: ''
+      URL: 'https://someshwarreddy.com'
     }
   ]
   id!: number;
