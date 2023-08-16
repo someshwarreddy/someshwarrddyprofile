@@ -1,19 +1,24 @@
 import { Component } from '@angular/core';
 import { Renderer2 } from '@angular/core'
+import { DownloadService } from './download.service';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  constructor(private renderer: Renderer2) {}
-   url='/src/assets/someshwarresume.docx'
+  constructor(private renderer: Renderer2,private downloads: DownloadService) {}
+   url='/assets/someshwarreddybhimireddy.pdf'
    downloadFile() {
-      const link = this.renderer.createElement('a');
-      link.setAttribute('target', '_blank');
-      link.setAttribute('href', this.url);
-      link.setAttribute('download', `someshwarresume.docx`);
-      link.click();
-      link.remove();
+    this.downloads
+      .download(this.url)
+      .subscribe(blob => {
+        const a = document.createElement('a')
+        const objectUrl = URL.createObjectURL(blob)
+        a.href = objectUrl
+        a.download = 'someshwarreddybhimireddy.pdf';
+        a.click();
+        URL.revokeObjectURL(objectUrl);
+      })
    }
 }
