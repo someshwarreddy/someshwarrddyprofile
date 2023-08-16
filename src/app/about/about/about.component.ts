@@ -9,8 +9,10 @@ import { DownloadService } from 'src/app/download.service';
 })
 export class AboutComponent {
 
-  url='/assets/someshwarreddybhimireddy.pdf'
-  constructor(private renderer: Renderer2,private downloads: DownloadService) {}
+  url='/assets/someshwarreddybhimireddy.pdf';
+
+  constructor(private renderer: Renderer2, private downloads: DownloadService) {}
+
    downloadFile() {
     this.downloads
       .download(this.url)
