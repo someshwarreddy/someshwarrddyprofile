@@ -30,6 +30,15 @@ export class ProjectDetailsComponent implements OnInit {
     /*...*/
     {
       id: 3,
+      title: 'uicontainer',
+      summary: 'The scope of the project is angular devlope ui components like tabs , accordian .',
+      image: './assets/images/p4.png',
+      pl: '  Angualr , Css , Html , Ngrx',
+      URL: 'https://uicontainer.netlify.app/'
+    },
+    /*...*/
+    {
+      id: 4,
       title: 'Someshwar reddy ',
       summary: 'The scope of the project is my portfolio.',
       image: './assets/images/p-3.png',
