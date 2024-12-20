@@ -3,12 +3,21 @@
 
     <div class="project-list">
 
-        <div class="card" *ngFor="let project of projects" [routerLink]="['project', project.id]">
+        <div class="card" *ngFor="let project of projects">
             <div class="project-image">
                 <img src="{{project?.image}}" alt="project image">
             </div>
             <div class="project-content">
-                <h3>{{project?.title}}</h3>
+                <h3>Title: &nbsp;{{project?.title}}</h3>
+                <p>
+                  Program Languages: {{project?.pl}}
+                </p>
+                <p>
+                    Summary :{{project?.pl}}
+                </p>
+                <p>
+                  URL: <a href={{project.URL}} target="_blank" rel="noopener noreferrer">{{project.URL}}</a>
+                </p>
             </div>
         </div>
     </div>
